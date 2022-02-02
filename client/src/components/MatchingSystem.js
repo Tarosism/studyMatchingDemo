@@ -5,7 +5,7 @@ import classnames from "classnames";
 import "../styles/style.css";
 
 export default function MatchingSystem() {
-  const [name, setName] = useState("양승준");
+  const [name, setName] = useState("");
   const [surveyCheck1, setSurveyCheck] = useState("");
   const [surveyCheck2, setSurveyCheck2] = useState("");
   const [surveyCheck3, setSurveyCheck3] = useState("");
