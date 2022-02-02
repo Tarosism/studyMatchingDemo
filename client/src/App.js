@@ -46,6 +46,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -71,6 +73,11 @@ table {
 }
 a {
   text-decoration: none;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
 }
 `;
 

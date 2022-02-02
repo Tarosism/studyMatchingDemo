@@ -1,42 +1,26 @@
 import React from "react";
+import SideNav from "../components/SideNav";
+import MatchingSystem from "../components/MatchingSystem";
 
 export default function studyMatchingSection() {
   return (
     <>
-      <div
-        style={{
-          position: "fixed",
-          top: "60px",
-          left: "0px",
-          height: "100%",
-        }}
-      >
-        <div
-          style={{
-            width: "320px",
-            height: "100%",
-            backgroundColor: "rgb(250,250,250)",
-          }}
-        >
-          <div
+      <SideNav />
+      <div style={{ marginLeft: "320px" }}>
+        <div style={{ padding: "25px 25px" }}>
+          <h1
             style={{
-              fontSize: "20px",
-              color: "#1890ff",
-              fontWeight: "700",
-              lineHeight: "1.5",
-              padding: "17px",
+              fontSize: "36px",
+              fontWeight: "500",
+              marginBottom: "20px",
             }}
           >
-            🌟 [SEB] Section 1: Single Page Application
-          </div>
-          <div>
-            <div style={{ width: "100%", backgroundColor: "rgb(240,240,240)" }}>
-              asd
-            </div>
-          </div>
+            스터디 매칭 도우미
+          </h1>
+          <br />
+          <MatchingSystem />
         </div>
       </div>
-      <div style={{ marginLeft: "320px" }}>asdfds</div>
     </>
   );
 }
